@@ -1,0 +1,29 @@
+{
+  "name": "jeslopcru/sentimental-analysis-twitter-kibana",
+  "description": "sentimental analysis usint twitter api and kibana (elasticsearch)",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jesus LC",
+      "email": "jeslopcru@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "jwhennessey/phpinsight": "~2.0",
+    "abraham/twitteroauth": "0.5.2",
+    "ruflin/elastica": "1.4.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.6.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SentimentAnalysis\\": "src/SentimentAnalysis"
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
